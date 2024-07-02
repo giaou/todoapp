@@ -7,7 +7,7 @@ export default function TodoItemOnDisplay({ todo, todos, setTodos }) {
   return (
     <div className={Styles.item}>
       <div className={Styles.itemName}>
-        {todo}
+        {todo.name}
         <span>
           <button
             onClick={() => handleDelete(todo)}
