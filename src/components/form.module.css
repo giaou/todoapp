@@ -1,0 +1,36 @@
+.form {
+  background-color: white;
+  margin-top: 50px;
+  box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 8px;
+}
+
+.modernInput {
+  display: block;
+  width: 100%;
+  border: none;
+  color: whitesmoke;
+  font-size: 16px;
+}
+
+.modernInput:focus {
+  outline: none;
+}
+
+.modernButton {
+  background-color: rgb(35, 110, 137);
+  color: whitesmoke;
+  border: none;
+  border-radius: 3px;
+  display: inline-block;
+  padding: 12px 20px;
+  cursor: pointer;
+}
+
+.inputContainer{
+    display: flex;
+}
