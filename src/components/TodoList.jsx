@@ -1,10 +1,16 @@
 import TodoItemOnDisplay from "./TodoItemOnDisplay";
+import Styles from "./todolist.module.css";
 
-export default function TodoList({ todos }) {
+export default function TodoList({ todos, setTodos }) {
   return (
-    <div>
+    <div className={Styles.list}>
       {todos.map((item) => (
-        <TodoItemOnDisplay key={item} todo={item} />
+        <TodoItemOnDisplay
+          key={item}
+          todo={item}
+          todos={todos}
+          setTodos={setTodos}
+        />
       ))}
     </div>
   );
