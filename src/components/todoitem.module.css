@@ -22,3 +22,7 @@
   border-radius: 4px;
   cursor: pointer;
 }
+
+.complete {
+  text-decoration: line-through;
+}
